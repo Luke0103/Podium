@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30114.105
+VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Podium", "Podium\Podium.csproj", "{6A08A2E1-EEEC-408B-ABF5-66767B5A6139}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Podium", "Podium\Podium.csproj", "{54C307F1-1927-423A-AD60-759657BD32F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6A08A2E1-EEEC-408B-ABF5-66767B5A6139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6A08A2E1-EEEC-408B-ABF5-66767B5A6139}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6A08A2E1-EEEC-408B-ABF5-66767B5A6139}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6A08A2E1-EEEC-408B-ABF5-66767B5A6139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54C307F1-1927-423A-AD60-759657BD32F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54C307F1-1927-423A-AD60-759657BD32F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54C307F1-1927-423A-AD60-759657BD32F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54C307F1-1927-423A-AD60-759657BD32F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8481FADD-C3FB-4926-8452-D93A191DB247}
+		SolutionGuid = {F7FBCBCE-F792-46E2-8B9A-72B0BB317DBD}
 	EndGlobalSection
 EndGlobal

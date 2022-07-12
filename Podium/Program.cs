@@ -8,6 +8,8 @@ using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
 using System.Reflection;
+using System.Diagnostics.Tracing;
+using Discord.Addons.Interactive;
 
 namespace Podium
 {
@@ -17,7 +19,7 @@ namespace Podium
         CommandService command;
         IServiceProvider services;
 
-        const string token = "NzM5NzgzNDYxMDE0ODYzOTA0.XyffCQ.gV-G6QgbLXZNYkMQoytnaURYmdM";
+        const string token = "token";
 
         static void Main(string[] args) => new Program().RunBotAsync().GetAwaiter().GetResult();
 
@@ -25,7 +27,7 @@ namespace Podium
         {
             client = new DiscordSocketClient(new DiscordSocketConfig{WebSocketProvider = Discord.Net.Providers.WS4Net.WS4NetProvider.Instance});
             command = new CommandService();
-            services = new ServiceCollection().AddSingleton(client).AddSingleton(command).BuildServiceProvider();
+            services = new ServiceCollection().AddSingleton(client).AddSingleton(command).AddSingleton<InteractiveService>().BuildServiceProvider();
 
             client.Log += ClientLog;
 
